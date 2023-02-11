@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+
+    background-color: #FADECF ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav__logo{
+
+    flex-grow: 3;
+
+}
+
+.nav__links{
+
+    font-size: 1.2rem;
+    flex-grow:2;
+    text-align: center;
+
+}
+
+.nav__link{
+
+    text-decoration: none;
+    color:#756E97;
+    margin: 0rem 4rem;
+
+}
+
+.nav__link--color{
+
+    color: black;
+
+}
